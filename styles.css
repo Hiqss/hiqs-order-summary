@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('images/pattern-background-desktop.svg');
+    background-color: hsl(225, 100%, 94%);
+    font-family: Red Hat Display;
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+    margin: 70px 40%;
+    height: 470px;
+    width: 300px;
+    box-shadow:  0px 15px 15px hsl(225, 94%, 87%);
+}
+.image-child {
+    width: fit-content;
+    height: 130px;
+}
+.hero-icon {
+    width: 300px;
+    height: 140px;
+    border-radius: 10px 10px 0 0;
+}
+.text-child {
+    width: 300px;
+    background-color: white;
+    padding: 30px 0 0 0;
+    border-radius: 0 0 10px 10px;
+}
+.text {
+    width: 100%;
+    padding: 0 15px;
+}
+h3 {
+    text-align: center;
+    padding-bottom: 12px;
+}
+.paragraph {
+    line-height: 1.5;
+    text-align: center;
+    padding: 0 30px 0;
+    font-weight: 500;
+    font-size: 11px;
+    color: hsl(224, 23%, 55%);
+}
+.music-icon {
+    width: 35px;
+    height: 35px;
+}
+.plan-row{
+    display: flex;
+    flex-direction: row;
+    padding: 15px 15px;
+    background-color: hsl(225, 100%, 98%);
+    margin: 15px;
+    border-radius: 8px;
+}
+.plan {
+    width: 70%;
+    font-size: 16px;
+    padding-left: 10px;
+    line-height: 1.7;
+}
+.plan p {
+    font-weight: 500;
+    font-size: 11px;
+    color: hsl(224, 23%, 55%);
+}
+.change {
+    height: fit-content;
+    padding: 6px 0;
+}
+.change-btn{
+    align-self: right;
+    background-color: hsl(225, 100%, 98%);
+    border: 0;
+    color: hsl(245, 75%, 52%);
+    margin-top: 5px 0;
+    height: fit-content;
+    font-weight: 500;
+    font-size: 11px;
+    font-family: Red Hat Display ;
+}
+.proceed {
+    width: 240px;
+    padding: 15px 15px;
+    background-color: hsl(245, 75%, 52%);
+    margin: 15px;
+    border: 0;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 0.7;
+    font-family: Red Hat Display;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 3px 10px 8px hsl(229, 27%, 92%);
+}
+.cancel {
+    background-color: white;
+    border: 0;
+    width: 270px;
+    padding: 15px 15px;
+    margin: 0 0 15px;
+    color: hsl(224, 23%, 55%);
+    height: fit-content;
+    font-weight: 900;
+    font-size: 11px;
+    font-family: Red Hat Display ;
+}
